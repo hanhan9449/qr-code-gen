@@ -6,6 +6,6 @@ name="饼干.svg"
 for n in "${arr[@]}"
 do
   echo $n
-  inkscape -w $n -h $n $name -o "icon-${n}x${n}.png"
+  inkscape -w $n -h $n $name -e "icon-${n}x${n}.png"
 done
 
